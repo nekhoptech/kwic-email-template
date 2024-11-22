@@ -1,0 +1,17 @@
+{
+  "name": "kwic-react-emailer",
+  "version": "1.0.0",
+  "private": false,
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "peerDependencies": {
+    "@react-email/components": "latest",
+    "react/jsx-runtime": "latest"
+  },
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm --target node20",
+    "dev": "tsup-node src/index.tsx --format esm --target node20 --watch",
+    "clean": "rm -rf dist"
+  }
+}
