@@ -7,7 +7,7 @@
   "main": "index.js",
   "peerDependencies": {
     "@react-email/components": "latest",
-    "react/jsx-runtime": "latest"
+    "react": "19.0.0-rc-187dd6a7-20240806",
   },
   "scripts": {
     "build": "tsup src/index.tsx --format esm --target node20",
